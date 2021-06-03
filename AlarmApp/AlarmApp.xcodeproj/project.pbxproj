@@ -56,15 +56,63 @@
 		E88718382668BC7C00DDD37F /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
-				E88718392668BC7C00DDD37F /* AppDelegate.swift */,
-				E887183B2668BC7C00DDD37F /* SceneDelegate.swift */,
-				E887183D2668BC7C00DDD37F /* ViewController.swift */,
-				E887183F2668BC7C00DDD37F /* Main.storyboard */,
+				E887184D2668BEFB00DDD37F /* Resources */,
 				E88718422668BC7F00DDD37F /* Assets.xcassets */,
 				E88718442668BC7F00DDD37F /* LaunchScreen.storyboard */,
 				E88718472668BC7F00DDD37F /* Info.plist */,
 			);
 			path = AlarmApp;
+			sourceTree = "<group>";
+		};
+		E887184D2668BEFB00DDD37F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E88718522668BF3D00DDD37F /* Cells */,
+				E88718512668BF3500DDD37F /* Extensions */,
+				E88718502668BF2400DDD37F /* ViewControllers */,
+				E887184F2668BF1C00DDD37F /* Sources */,
+				E887184E2668BF0800DDD37F /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E887184E2668BF0800DDD37F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E887183F2668BC7C00DDD37F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E887184F2668BF1C00DDD37F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E88718392668BC7C00DDD37F /* AppDelegate.swift */,
+				E887183B2668BC7C00DDD37F /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E88718502668BF2400DDD37F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E887183D2668BC7C00DDD37F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E88718512668BF3500DDD37F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E88718522668BF3D00DDD37F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
