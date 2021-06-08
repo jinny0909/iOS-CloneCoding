@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8488C3B266FBB5E00F8942E /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8488C3A266FBB5E00F8942E /* BaseTabBarViewController.swift */; };
 		E887183A2668BC7C00DDD37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88718392668BC7C00DDD37F /* AppDelegate.swift */; };
 		E887183C2668BC7C00DDD37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887183B2668BC7C00DDD37F /* SceneDelegate.swift */; };
 		E887183E2668BC7C00DDD37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887183D2668BC7C00DDD37F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8488C3A266FBB5E00F8942E /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		E88718362668BC7C00DDD37F /* AlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88718392668BC7C00DDD37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E887183B2668BC7C00DDD37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +58,64 @@
 		E88718382668BC7C00DDD37F /* AlarmApp */ = {
 			isa = PBXGroup;
 			children = (
-				E88718392668BC7C00DDD37F /* AppDelegate.swift */,
-				E887183B2668BC7C00DDD37F /* SceneDelegate.swift */,
-				E887183D2668BC7C00DDD37F /* ViewController.swift */,
-				E887183F2668BC7C00DDD37F /* Main.storyboard */,
+				E887184D2668BEFB00DDD37F /* Resources */,
 				E88718422668BC7F00DDD37F /* Assets.xcassets */,
 				E88718442668BC7F00DDD37F /* LaunchScreen.storyboard */,
 				E88718472668BC7F00DDD37F /* Info.plist */,
 			);
 			path = AlarmApp;
+			sourceTree = "<group>";
+		};
+		E887184D2668BEFB00DDD37F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E88718522668BF3D00DDD37F /* Cells */,
+				E88718512668BF3500DDD37F /* Extensions */,
+				E88718502668BF2400DDD37F /* ViewControllers */,
+				E887184F2668BF1C00DDD37F /* Sources */,
+				E887184E2668BF0800DDD37F /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E887184E2668BF0800DDD37F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E887183F2668BC7C00DDD37F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E887184F2668BF1C00DDD37F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E88718392668BC7C00DDD37F /* AppDelegate.swift */,
+				E887183B2668BC7C00DDD37F /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E88718502668BF2400DDD37F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E887183D2668BC7C00DDD37F /* ViewController.swift */,
+				E8488C3A266FBB5E00F8942E /* BaseTabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E88718512668BF3500DDD37F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E88718522668BF3D00DDD37F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +191,7 @@
 				E887183E2668BC7C00DDD37F /* ViewController.swift in Sources */,
 				E887183A2668BC7C00DDD37F /* AppDelegate.swift in Sources */,
 				E887183C2668BC7C00DDD37F /* SceneDelegate.swift in Sources */,
+				E8488C3B266FBB5E00F8942E /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
