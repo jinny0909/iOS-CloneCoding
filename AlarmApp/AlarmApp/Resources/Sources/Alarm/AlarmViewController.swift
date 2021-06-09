@@ -1,20 +1,20 @@
 //
-//  BaseTabBarViewController.swift
+//  AlarmViewController.swift
 //  AlarmApp
 //
-//  Created by kyoungjin on 2021/06/08.
+//  Created by kyoungjin on 2021/06/09.
 //
 
 import UIKit
 
-class BaseTabBarViewController: UIViewController {
+class AlarmViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
