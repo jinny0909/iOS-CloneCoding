@@ -38,6 +38,12 @@ class BaseTabBarController: UITabBarController, UITabBarControllerDelegate {
         timerNavigationController.tabBarItem = timerTabBarItem
         
         wcNavigationController.navigationBar.barTintColor = UIColor.black
+        
+        let segmentBarItem = UIBarButtonItem(title: "back", style: .plain, target: self, action: nil )
+        
+        wcNavigationController.navigationItem.rightBarButtonItem = segmentBarItem
+        
+
         alarmNavigationController.navigationBar.barTintColor = UIColor.black
         stopWatchNavigationController.navigationBar.barTintColor = UIColor.black
         timerNavigationController.navigationBar.barTintColor = UIColor.black
