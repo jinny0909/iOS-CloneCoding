@@ -13,8 +13,16 @@ class AlarmViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let leftBarItem = UIBarButtonItem(title: "Edit", style: .done, target: self, action: #selector(edit))
+        
+        leftBarItem.tintColor = .systemOrange
+        self.navigationItem.leftBarButtonItem = leftBarItem
+        
+        let rightBarItem = UIBarButtonItem(title: "+", style: .done, target: self, action: #selector(add))
+        rightBarItem.tintColor = .systemOrange
+        self.navigationItem.rightBarButtonItem = rightBarItem
     }
-
+    
 
     /*
     // MARK: - Navigation
@@ -25,5 +33,13 @@ class AlarmViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @objc func edit(){
+        print("edit button clicked")
+    }
 
+    @objc func add(){
+        print("add button clicked")
+    }
 }
+
+

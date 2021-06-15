@@ -13,6 +13,10 @@ class WorldClockViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        navigationController?.isToolbarHidden
+        //trying to call merge conflict for git practice
+        //yay
     }
 
 
