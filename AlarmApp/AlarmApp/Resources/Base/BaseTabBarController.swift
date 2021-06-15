@@ -39,10 +39,6 @@ class BaseTabBarController: UITabBarController, UITabBarControllerDelegate {
         
         wcNavigationController.navigationBar.barTintColor = UIColor.black
         
-        let segmentBarItem = UIBarButtonItem(title: "back", style: .plain, target: self, action: nil )
-        
-        wcNavigationController.navigationItem.rightBarButtonItem = segmentBarItem
-        
 
         alarmNavigationController.navigationBar.barTintColor = UIColor.black
         stopWatchNavigationController.navigationBar.barTintColor = UIColor.black
@@ -58,6 +54,10 @@ class BaseTabBarController: UITabBarController, UITabBarControllerDelegate {
         UITabBar.appearance().barTintColor = .black
         
         
+    }
+    
+    @objc func add(){
+         print("add")
     }
     
 

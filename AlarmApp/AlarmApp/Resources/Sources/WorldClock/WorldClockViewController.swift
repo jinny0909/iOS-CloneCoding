@@ -11,8 +11,27 @@ class WorldClockViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let leftBarItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(self.edit))
+        let rightBarItem = UIBarButtonItem(title: "+", style: .done, target: self, action: #selector(self.add))
+        
+        leftBarItem.tintColor = .systemOrange
+        rightBarItem.tintColor = .systemOrange
+        
+        //rightBarItem '+' size needs to be fixed
+        
+        self.navigationItem.leftBarButtonItem = leftBarItem
+        self.navigationItem.rightBarButtonItem = rightBarItem
     }
     
+    @objc func edit(){
+        print("Edit button clicked")
+    }
+    
+    @objc func add(){
+        print("Add button clicked")
+    }
 
 
     /*
